@@ -1,5 +1,7 @@
 const client = require(`./client`);
 
+console.log("seed.js");
+
 const createTables = async() => {
   try {
  await client.query(`
